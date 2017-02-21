@@ -1,0 +1,22 @@
+Overview
+--------
+   Password Manager allows you to store usernames, passwords, URLs,
+   and generic notes in an encrypted file protected by one master password.
+
+   There are several open source password managers available so what makes UPM 
+   different? It's three strongest features are...
+
+    * it's simplicity - it provides a small number of very strong features with no
+      clutter.
+
+    * cross platform - runs on Android, Windows, and Linux.
+
+
+Features
+--------
+   .Small, fast and lean
+   .Uses AES for file encryption
+   .Written in Java/SWING
+   .Android, Windows and Linux native feeling versions available
+   .Fast account searching
+   .Streamlined for those who are more comfortable using the keyboard only
