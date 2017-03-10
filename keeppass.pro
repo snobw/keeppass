@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         keeppass.cpp \
     parser.cpp \
-    encode.cpp
+    encode.cpp \
+    moduikeeppass.cpp
 
 HEADERS  += keeppass.h \
     parser.h \
-    encode.h
+    encode.h \
+    moduikeeppass.h
 
 FORMS    += keeppass.ui
