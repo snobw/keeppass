@@ -48,30 +48,28 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_5">
            <item>
+            <widget class="QPushButton" name="btNewUrl">
+             <property name="text">
+              <string>New</string>
+             </property>
+            </widget>
+           </item>
+           <item>
             <widget class="QPushButton" name="btURL">
              <property name="text">
-              <string>Path</string>
+              <string>Open</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btSave">
+             <property name="text">
+              <string>Save</string>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QLineEdit" name="leURL"/>
-           </item>
-           <item>
-            <widget class="QFrame" name="frLogo">
-             <property name="minimumSize">
-              <size>
-               <width>40</width>
-               <height>40</height>
-              </size>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-            </widget>
            </item>
           </layout>
          </item>
@@ -85,10 +83,17 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_2">
            <item>
-            <widget class="QLineEdit" name="leKey"/>
+            <widget class="QLineEdit" name="leKey">
+             <property name="inputMask">
+              <string notr="true"/>
+             </property>
+            </widget>
            </item>
            <item>
             <widget class="QPushButton" name="btOK">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
              <property name="text">
               <string>OK</string>
              </property>
@@ -101,6 +106,9 @@
       </item>
       <item>
        <widget class="QGroupBox" name="gbCmd">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="title">
          <string>Information</string>
         </property>
@@ -250,6 +258,28 @@
                <widget class="QPushButton" name="btCancel">
                 <property name="text">
                  <string>Cancel</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frLogo">
+                <property name="minimumSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
                 </property>
                </widget>
               </item>
