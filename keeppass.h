@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "moduikeeppass.h"
+#include "qstring.h"
 
 namespace Ui {
 class KeepPass;
@@ -40,6 +41,11 @@ private slots:
 private:
     Ui::KeepPass *ui;
     ModUIKeepPass modelKeepPass;
+    void _onEnablePannelCmd(bool flag);
+    void _onEnableMenu(bool flag);
+    void _onEnableInformation (bool flag);
+
+
 };
 
 #endif // KEEPPASS_H
